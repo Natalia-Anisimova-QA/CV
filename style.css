@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc; /* Серый фон */
+    color: #000000; /* Черный цвет шрифта */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #000000; /* Черный цвет шрифта */
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    color: #000000; /* Черный цвет шрифта */
+}
+
+.contacts {
+    margin-top: 20px;
+}
+
+.contacts h3 {
+    font-size: 1.2em;
+    color: #000000; /* Черный цвет шрифта */
+}
+
+.contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts li {
+    margin: 10px 0;
+}
+
+.contacts a {
+    color: #FFA500; /* Бледно-оранжевый цвет ссылок */
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+.stack {
+    margin-top: 20px;
+}
+
+.stack h3 {
+    font-size: 1.2em;
+    color: #000000; /* Черный цвет шрифта */
+    cursor: pointer;
+}
+
+.stack ul {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+.stack li {
+    margin: 5px 0;
+    color: #000000; /* Черный цвет шрифта */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #000000; /* Черный цвет шрифта */
+}

@@ -1,0 +1,50 @@
+<<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка - Анисимова Наталья</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Анисимова Наталья</h1>
+            <h2>QA Engineer</h2>
+        </header>
+        <section class="contacts">
+            <h3>Контакты</h3>
+            <ul>
+                <li>Почта: <a href="mailto:a.n.moscow.russia@yandex.ru">a.n.moscow.russia@yandex.ru</a></li>
+                <li>Телеграм: <a href="https://t.me/levleto" target="_blank">@levleto</a></li>
+                <li>GitHub: <a href="https://github.com/Natalia-Anisimova-QA" target="_blank">github.com/Natalia-Anisimova-QA</a></li>
+            </ul>
+        </section>
+        <section class="stack">
+            <h3 onclick="toggleStack()">Мой стек</h3>
+            <ul id="stack-list">
+                <li>Postman</li>
+                <li>PostgreSQL</li>
+                <li>DevTools</li>
+                <li>TestIT</li>
+                <li>Yandex.Tracker</li>
+                <li>Grafana</li>
+                <li>Kibana</li>
+                <li>Figma</li>
+                <li>PixelPerfect</li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; 2021</p>
+        </footer>
+    </div>
+    <script>
+        function toggleStack() {
+            var stackList = document.getElementById('stack-list');
+            stackList.style.display = stackList.style.display === 'none' ? 'block' : 'none';
+        }
+        // Initially hide the stack list
+        document.getElementById('stack-list').style.display = 'none';
+    </script>
+</body>
+</html>
